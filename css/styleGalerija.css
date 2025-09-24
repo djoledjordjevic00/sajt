@@ -1,0 +1,20 @@
+.photo-gallery { 
+    color:#313437; 
+    background-color:#fff; 
+}   
+.photo-gallery .photos { 
+    padding-bottom:20px; 
+} 
+.photo-gallery .item { 
+    padding-bottom:30px; 
+} 
+.photo-gallery { 
+    color:#313437; 
+    background-color:#0f0f0f; 
+}  
+.photo-gallery .photos { 
+    padding-bottom:20px; 
+}
+.photo-gallery .item { 
+    padding-bottom:30px; 
+} 
