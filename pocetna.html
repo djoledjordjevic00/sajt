@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Početna</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background-color: #000;
+    }
+
+    .card {
+      height: 400px;
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="pocetna.html"><img src="slike/logo.jpg" style="width:150px; height:auto;" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="pocetna.html">Početna</a></li>
+          <li class="nav-item"><a class="nav-link" href="onama.html">O nama</a></li>
+          <li class="nav-item"><a class="nav-link" href="proizvodi.html">Proizvodi</a></li>
+          <li class="nav-item"><a class="nav-link" href="galerija.html">Galerija</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="stampa.html">Štampa</a></li>
+          <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="mapa.html">Mapa sajta</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+          <li class="nav-item"><a class="nav-link" href="novosti.html">Novosti</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Servis</a></li>
+          <li class="nav-item"><a class="nav-link" href="partneri.html">Partneri</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero-section">
+    <div class="container fade-in">
+      <p class="promo-label">Prodavnica računara i opreme</p>
+      <h1 class="hero-title">Dobrodošli u naš IT svet</h1>
+      <p>Kupovina računara, laptopova i profesionalan servis na jednom mestu</p>
+    </div>
+  </section>
+
+  <div id="mainCarousel" class="carousel slide container my-5 fade-in" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slike/slajder1.png" class="d-block w-100" alt="Slika 1">
+        <a href="proizvodi/laptopRacunari.html" class="carousel-caption">Najnoviji modeli laptopova</a>
+      </div>
+      <div class="carousel-item">
+        <img src="slike/slajder2.jpg" class="d-block w-100" alt="Slika 2">
+        <a href="blog.html" class="carousel-caption">Servis i održavanje računara</a>
+      </div>
+      <div class="carousel-item">
+        <img src="slike/slajder3.png" class="d-block w-100" alt="Slika 3">
+        <a href="proizvodi/periferije.html" class="carousel-caption">Kvalitetna oprema po povoljnim cenama</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class="container my-5 slide-right">
+    <h1>Na akciji:</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+      <div class="col">
+        <div class="card bg-dark text-white border-light fade-in">
+          <img src="slike/periferije/periferija1.jpg" class="card-img-top" alt="Periferija 1">
+          <div class="card-body">
+            <p class="card-text">LG UltraGear 24'' 24GS50F-B</p>
+            <p class="card-text"><s>Cena: 14.630,00 din.</s><br>Nova cena: 10.999,00 din.</p>
+            <a href="proizvodi/periferije/periferija1.html" class="btn btn-warning">Pročitaj više</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark text-white border-light fade-in">
+          <img src="slike/laptopovi/laptop7.jpg" class="card-img-top" alt="Laptop 7">
+          <div class="card-body">
+            <p class="card-text">Lenovo Legion Pro 7 16IAX10H 16'' Ultra 9 64GB 1TB RTX5080 83F500AFYA</p>
+            <p class="card-text"><s>Cena: 540.473,00 din.</s><br>Nova cena: 489.999,00 din.</p>
+            <a href="proizvodi/laptopRacunari/laptop7.html" class="btn btn-warning">Pročitaj više</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark text-white border-light fade-in">
+          <img src="slike/desktop/desktop4.jpg" class="card-img-top" alt="Desktop 4">
+          <div class="card-body">
+            <p class="card-text">EXCEED WarMachine - Powered by Asus</p>
+            <p class="card-text"><s>Cena: 217.000,00 din.</s><br>Nova cena: 189.999,00 din.</p>
+            <a href="proizvodi/desktopRacunari/desktop4.html" class="btn btn-warning">Pročitaj više</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="benefits my-5">
+  <div class="container text-center">
+    <h2>Zašto baš mi?</h2>
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <h4>🚚</h4>
+        <p>Besplatna dostava</p>
+      </div>
+      <div class="col-md-3">
+        <h4>🛡️</h4>
+        <p>Garancija 2 godine</p>
+      </div>
+      <div class="col-md-3">
+        <h4>⚡</h4>
+        <p>Brza isporuka u roku od 24h</p>
+      </div>
+      <div class="col-md-3">
+        <h4>💬</h4>
+        <p>Stručna podrška i savetovanje</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="brands my-5">
+  <div class="container text-center">
+    <h2>Radimo sa najboljim brendovima</h2>
+    <div class="row mt-4">
+      <div class="col-md-2"><img src="slike/partneri/asus.jpg" class="img-fluid" alt="Asus"></div>
+      <div class="col-md-2"><img src="slike/partneri/acer.jpg" class="img-fluid" alt="Acer"></div>
+      <div class="col-md-2"><img src="slike/partneri/dell.jpg" class="img-fluid" alt="DELL"></div>
+      <div class="col-md-2"><img src="slike/partneri/msi.jpg" class="img-fluid" alt="MSI"></div>
+      <div class="col-md-2"><img src="slike/partneri/lenovo.jpg" class="img-fluid" alt="Lenovo"></div>
+      <div class="col-md-2"><img src="slike/partneri/nvidia.jpg" class="img-fluid" alt="nvidia"></div>
+    </div>
+  </div>
+  </section>
+
+  <section class="info my-5">
+  <div class="container">
+    <h2>Kako izabrati pravi računar?</h2>
+    <p>
+      Kupovina računara ili laptopa često može biti zbunjujuća zbog ogromnog broja modela i različitih specifikacija. 
+      Naš tim stručnjaka vam stoji na raspolaganju da vam pomogne u izboru uređaja koji najbolje odgovara vašim potrebama - 
+      bilo da je u pitanju gaming, posao, škola ili svakodnevna upotreba. 
+    </p>
+    <p>
+      Ako niste sigurni šta vam je potrebno, mi ćemo vas posavetovati i predložiti konfiguracije koje pružaju najbolji odnos 
+      cene i kvaliteta, uz mogućnost dodatnog prilagođavanja komponenti. 
+    </p>
+  </div>
+  </section>
+
+  <section class="trends my-5">
+  <div class="container">
+    <h2>U korak sa najnovijom tehnologijom</h2>
+    <p>
+      Svet tehnologije se brzo menja - svake godine na tržište dolaze novi modeli laptopova, grafičkih kartica, procesora i periferne opreme. 
+      Kod nas ćete uvek pronaći aktuelne proizvode i rešenja koja prate svetske trendove. 
+    </p>
+    <p>
+      Pored toga, posebnu pažnju posvećujemo i pouzdanosti naših dobavljača i kvalitetu usluge, kako biste bili sigurni da kupujete 
+      proverene i dugotrajne uređaje.
+    </p>
+  </div>
+  </section>
+
+  <section class="support my-5">
+  <div class="container">
+    <h2>Podrška na koju možete da računate</h2>
+    <p>
+      Naša briga za kupce ne završava kupovinom. 
+      Nakon što nabavite računar ili laptop kod nas, uvek možete da računate na našu tehničku podršku. 
+      Pomažemo vam da instalirate softver, rešite tehničke probleme i dobijete savete kako da najbolje iskoristite svoj uređaj. 
+    </p>
+    <p>
+      Na taj način, stičete pouzdanog partnera koji vam je dostupan i nakon same kupovine.
+    </p>
+  </div>
+  </section>
+
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 DjDj Electronics | Sva prava zadržana</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/animacije.js"></script>
+</body>
+</html>
